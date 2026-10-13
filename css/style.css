@@ -189,6 +189,38 @@ footer p {
   align-items: center;
 }
 
+.grifondor:hover p {
+  color: red;
+}
+
+.grifondor:hover img {
+  border-color: red;
+}
+
+.slytherin:hover p {
+  color: green;
+}   
+
+.slytherin:hover img {
+  border-color: green;
+} 
+
+.hufflepuff:hover p {
+  color: yellow;
+}
+
+.hufflepuff:hover img {
+  border-color: yellow;
+}
+
+.ravenclaw:hover p {
+  color: blue;
+}
+
+.ravenclaw:hover img {
+  border-color: blue;
+}
+
 @media screen and (max-width: 425px) {
   header {
     width: 90%;
@@ -210,6 +242,7 @@ header ul {
     flex-direction: column;
     align-content: space-around;
   }
+
 }
 
 /*# sourceMappingURL=style.css.map */
