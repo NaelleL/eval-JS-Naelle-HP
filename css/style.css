@@ -128,7 +128,7 @@ footer p {
   flex-wrap: wrap;
   padding: 30px;
 }
-.characters > div {
+.characters > section {
   padding: 30px;
 }
 .characters img {
