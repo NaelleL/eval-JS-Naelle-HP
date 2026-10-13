@@ -1,18 +1,22 @@
+
 <!DOCTYPE html>
 <html lang="fr">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/style.css" />
     <title>Naëlle Lemennicier - Partiel Harry Potter</title>
+    <script src="../js/perso.js" defer></script>
   </head>
+
   <body class="page_perso">
     <header class="header">
       <div class="header__right">
         <a href="index.html">
-        <img src="../images/logo.png" />
-    </a>
- </div>
+          <img src="../images/logo.png" alt="Accueil" />
+        </a>
+      </div>
+
       <div class="header__left">
         <h1>Naëlle Lemennicier - Partiel Harry Potter</h1>
         <ul>
@@ -21,27 +25,32 @@
           <li>Houses</li>
           <li>Spells</li>
         </ul>
-        <img src="../images/menu.png" alt="" srcset="" />
+        <img src="../images/menu.png" alt="Menu" />
       </div>
     </header>
+
     <main>
       <section>
-        <h3>Harry Potter</h3>
+        <h3 id="nom"></h3>
+
         <div class="perso">
           <figure class="perso__left">
-            <img src="../images/harry.webp" alt="" srcset="" />
-            <figcaption>Daniel <br /> Radcliffe</figcaption>
+            <img id="photo" src="" alt="" />
+            <figcaption id="acteur"></figcaption>
           </figure>
+
           <div class="perso__right">
-            <div> Gender <strong>Male</strong></div>
-            <div>Eye <strong>Green</strong></div>
-            <div>Hair <strong>Black</strong></div>
-            <div>Date of birth <strong>31-07-1980</strong></div>
-            <div>Patronus <strong>Stag</strong></div>
+            <div>Gender <strong id="genre"></strong></div>
+            <div>Aliases <strong id="surnoms"></strong></div>
+            <div>Eye <strong id="yeux"></strong></div>
+            <div>Hair <strong id="cheveux"></strong></div>
+            <div>Date of birth <strong id="naissance"></strong></div>
+            <div>Patronus <strong id="patronus"></strong></div>
+          </div>
         </div>
       </section>
       <section class="house__perso">
-        <img src="../images/Gryffindor.png" alt="" srcset="" />
+        <img id="blason" src="" alt="Blason de la maison" />
       </section>
     </main>
     <footer>

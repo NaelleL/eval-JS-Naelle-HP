@@ -39,6 +39,13 @@ function afficherPersonnages(liste) {
         <p>${personnage.name}</p>
       </div>
     `;
+
+        newSection.addEventListener("click", () => {
+      localStorage.setItem("personnage", JSON.stringify(personnage));
+
+      window.location.href = "details.html";
+    });
+
     characters.appendChild(newSection);
   });
 }
@@ -64,3 +71,5 @@ ravenclaw.addEventListener("click", () => {
 slytherin.addEventListener("click", () => {
   filtrerMaison("Slytherin");
 });
+
+
